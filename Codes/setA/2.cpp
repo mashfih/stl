@@ -27,12 +27,12 @@ int validate(string s){
     
     for(char c : msg[1]){
         if(isupper(c))
-            return 0;
+            return 1;
     }
 
     for(char c : msg[4]){
         if(isupper(c))
-            return 0;
+            return 1;
     }
 
 
